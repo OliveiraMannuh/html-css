@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de iframe</title>
+    <style>
+        iframe{
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de um iframe</h1>
+    <p>Acessando o site da 
+        <!-- Tamanho padrão iframe: 300px x 150px, exibido quando o tamanho não é definido -->
+        <iframe src="https://wiki.exituseduc.com.br" frameborder="0" height="500">
+            <a href="https://wiki.exituseduc.com.br" target="_blank">Wiki Exitus</a>
+        </iframe>
+        curso em vídeo</a> para criar um iframe.</p>
+
+        <!-- site do google protegido para não ser utilizado em iframe -->
+        <p>O repositório do Guanabara 
+            <iframe src="https://gustavoguanabara.github.io" frameborder="0" height="500" width="500">
+                <a href="https://gustavoguanabara.github.io" target="_blank"> no GitHub</a>                
+            </iframe>
+             também é bem legal.
+        </p>
+</body>
+</html>
