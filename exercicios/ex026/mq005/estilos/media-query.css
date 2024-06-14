@@ -18,5 +18,8 @@ Grandes: acima de 1200px
         display: block;
     }
 
-    
+    menu > ul > li {
+        display: inline-block;
+        
+    }
 }
